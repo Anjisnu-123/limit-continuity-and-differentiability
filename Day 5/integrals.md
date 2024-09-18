@@ -197,5 +197,22 @@ y = np.array([0, 1, 4, 9])  # f(x) = x^2
 area = simpson(y, x)
 print(f"Area under the curve using Simpson's Rule: {area}") ```
 
-You can continue to add sections like "Further Reading" or any other relevant content after the code block, using headings, bullet points, or any markdown formatting as needed. Just make sure to maintain proper indentation and structure for clarity!
+Manual Implementation of Numerical Integration
+
+def trapezoidal_rule(f, a, b, n):
+    h = (b - a) / n
+    integral = 0.5 * (f(a) + f(b))
+    for i in range(1, n):
+        integral += f(a + i * h)
+    integral *= h
+    return integral
+
+# Define the function
+def f(x):
+    return x**2
+
+# Calculate the integral from 0 to 1
+result = trapezoidal_rule(f, 0, 1, 1000)
+print(f"Trapezoidal Rule Result: {result}")
+
 
