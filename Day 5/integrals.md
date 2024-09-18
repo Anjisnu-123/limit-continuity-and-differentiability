@@ -195,4 +195,7 @@ y = np.array([0, 1, 4, 9])  # f(x) = x^2
 
 # Using Simpson's Rule
 area = simpson(y, x)
-print(f"Area under the curve using Simpson's Rule: {area}")
+print(f"Area under the curve using Simpson's Rule: {area}") ```
+
+You can continue to add sections like "Further Reading" or any other relevant content after the code block, using headings, bullet points, or any markdown formatting as needed. Just make sure to maintain proper indentation and structure for clarity!
+
