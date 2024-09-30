@@ -214,5 +214,6 @@ def f(x):
 # Calculate the integral from 0 to 1
 result = trapezoidal_rule(f, 0, 1, 1000)
 print(f"Trapezoidal Rule Result: {result}")
+```
 
 
