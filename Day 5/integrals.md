@@ -217,3 +217,5 @@ print(f"Trapezoidal Rule Result: {result}")
 ```
 
 
+---
+Contribute to the repo 🖤
